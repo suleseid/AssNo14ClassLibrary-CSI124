@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <RootNamespace>AssNo14ClassLibrary_CSI124</RootNamespace>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Lucene.Net" Version="3.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="MyLibrary">
+      <HintPath>..\MyLibrary\MyLibrary\bin\Debug\net6.0\ref\MyLibrary.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
