@@ -7,7 +7,7 @@ using Lucene.Net.Support;
 
 namespace AssNo14ClassLibrary_CSI124
 {
-    internal class Player
+    public class Player
     {
         string _name;
         string _number;
